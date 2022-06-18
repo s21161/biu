@@ -1,0 +1,26 @@
+:root {
+  --snow-white: #ffffff;
+  --carbon-black: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--snow-white);
+  color: var(--carbon-black);
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
